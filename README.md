@@ -1,2 +1,1 @@
-# ctfEvent
-.pcap file that students will download to attempt to find the flag
+Riverton Bank captured perimeter HTTP traffic. The CEO’s workstation (IP 10.5.5.77) made a request to the intranet that hit the admin login endpoint. The HTTP Basic Authorization header carrying credentials is split across multiple TCP segments. Use Wireshark only to find the CEO’s /admin/login request and extract the password (password = flag in format flag{...}).
